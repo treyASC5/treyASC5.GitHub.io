@@ -1,0 +1,30 @@
+html {
+    background-color: blue;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+}
+
+.nav {
+    background-color: gray;
+    list-style: none;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+    
+}
+
+.nav > li > a {
+    text-decoration: none;
+}
+
+.nav > li > a:hover {
+    color: #c1c1c1;
+}
